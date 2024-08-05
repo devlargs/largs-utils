@@ -3,7 +3,7 @@ name: Check if tests are not failing
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   test:
