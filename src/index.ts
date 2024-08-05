@@ -1,1 +1,1 @@
-export * from "./shuffleArray";
+export { shuffleArray } from "./shuffleArray";
