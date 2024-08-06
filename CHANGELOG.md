@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/devlargs/largs-utils/compare/v0.2.2...v0.3.0) (2024-08-06)
+
+
+### Features
+
+* updated script to include src files on lib ([142fef9](https://github.com/devlargs/largs-utils/commit/142fef94557fe6cfe4f79dd642af62cb69d3e1c3))
+
+
+
 ## [0.2.2](https://github.com/devlargs/largs-utils/compare/v0.2.1...v0.2.2) (2024-08-06)
 
 
