@@ -2,7 +2,7 @@ name: Releases
 
 on:
   workflow_run:
-    workflows: ["Check if tests are not failing"]
+    workflows: ["Test"]
     types:
       - completed
 
