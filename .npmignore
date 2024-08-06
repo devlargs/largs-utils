@@ -1,4 +1,3 @@
-src
 node_modules
 tsconfig.json
 __tests__
@@ -7,3 +6,5 @@ package.json
 .github
 .swcrc
 CHANGELOG.md
+*.test.js
+lib/src/__tests__/
