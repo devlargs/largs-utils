@@ -5,10 +5,12 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "swc src -d lib --copy-files && tsc --emitDeclarationOnly",
     "test": "jest"
   },
   "devDependencies": {
+    "@swc/cli": "^0.4.0",
+    "@swc/core": "^1.7.6",
     "@types/jest": "^29.5.12",
     "@types/node": "^22.1.0",
     "jest": "^29.7.0",
