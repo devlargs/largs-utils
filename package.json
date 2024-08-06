@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "swc src -d lib --copy-files && tsc --emitDeclarationOnly && rimraf lib/src/__tests__",
+    "build": "swc src -d lib --copy-files && tsc --emitDeclarationOnly",
     "test": "jest"
   },
   "devDependencies": {
