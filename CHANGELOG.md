@@ -1,3 +1,12 @@
+## [0.2.2](https://github.com/devlargs/largs-utils/compare/v0.2.1...v0.2.2) (2024-08-06)
+
+
+### Bug Fixes
+
+* updated build command ([3920598](https://github.com/devlargs/largs-utils/commit/3920598586c8d9f94863d7d9f958bbc8f01806c6))
+
+
+
 ## [0.2.1](https://github.com/devlargs/largs-utils/compare/v0.2.0...v0.2.1) (2024-08-06)
 
 
