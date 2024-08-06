@@ -1,4 +1,13 @@
-# 0.1.0 (2024-08-06)
+# [0.2.0](https://github.com/devlargs/largs-utils/compare/v0.1.0...v0.2.0) (2024-08-06)
+
+
+### Features
+
+* created isValidEmail function ([36a3281](https://github.com/devlargs/largs-utils/commit/36a3281581b04a23d7e0dd29c1a8696c6aa1555c))
+
+
+
+# [0.1.0](https://github.com/devlargs/largs-utils/compare/f18ab0edc5aa69140abe71e8e6839c6c73a3ee98...v0.1.0) (2024-08-06)
 
 
 ### Features
