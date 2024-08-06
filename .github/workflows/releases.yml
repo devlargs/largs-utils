@@ -1,14 +1,14 @@
 name: Releases
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["Check if tests are not failing"]
+    types:
+      - completed
 
 jobs:
   changelog:
     runs-on: ubuntu-latest
-    needs: test
 
     steps:
       - name: Checkout
