@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/devlargs/largs-utils/compare/v0.2.0...v0.2.1) (2024-08-06)
+
+
+### Bug Fixes
+
+* unstable isValidEmail function ([febf34b](https://github.com/devlargs/largs-utils/commit/febf34ba1b616a4bb029afe3b43b2fa6779f75e3))
+
+
+
 # [0.2.0](https://github.com/devlargs/largs-utils/compare/v0.1.0...v0.2.0) (2024-08-06)
 
 
