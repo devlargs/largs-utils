@@ -1,4 +1,3 @@
-// Use this to traverse data without getting undefined errors
 export const coercedGet = (
   obj: Record<string, any>,
   path: string,

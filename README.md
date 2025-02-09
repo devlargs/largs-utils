@@ -10,6 +10,21 @@ npm install largs-utils
 
 ## Functions
 
+### `camelToSentenceCase`
+
+Converts a camelCase or PascalCase string into a readable sentence with spaces.
+
+**Usage:**
+
+```typescript
+import { camelToSentenceCase } from "largs-utils";
+
+console.log(camelToSentenceCase("helloWorld")); // "Hello World"
+console.log(camelToSentenceCase("ThisIsATest")); // "This Is A Test"
+console.log(camelToSentenceCase("JSONParser")); // "JSON Parser"
+console.log(camelToSentenceCase("APITestCase")); // "API Test Case"
+```
+
 ### `coercedGet`
 
 Safely retrieves a value from an object with default handling.
