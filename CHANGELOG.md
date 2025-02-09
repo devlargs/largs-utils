@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/devlargs/largs-utils/compare/v0.3.2...v0.4.0) (2025-02-09)
+
+
+### Features
+
+* added camelToSentenceCase util ([6e8c4d6](https://github.com/devlargs/largs-utils/commit/6e8c4d6381e956a7611f048adf4a21176a7f9b4f))
+
+
+
 ## [0.3.2](https://github.com/devlargs/largs-utils/compare/v0.3.1...v0.3.2) (2024-08-06)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * updated build command ([3920598](https://github.com/devlargs/largs-utils/commit/3920598586c8d9f94863d7d9f958bbc8f01806c6))
-
-
-
-## [0.2.1](https://github.com/devlargs/largs-utils/compare/v0.2.0...v0.2.1) (2024-08-06)
-
-
-### Bug Fixes
-
-* unstable isValidEmail function ([febf34b](https://github.com/devlargs/largs-utils/commit/febf34ba1b616a4bb029afe3b43b2fa6779f75e3))
 
 
 
