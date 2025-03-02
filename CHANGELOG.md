@@ -1,3 +1,12 @@
+# [0.5.0](https://github.com/devlargs/largs-utils/compare/v0.4.0...v0.5.0) (2025-03-02)
+
+
+### Features
+
+* added toKebabCase util ([5993569](https://github.com/devlargs/largs-utils/commit/599356956fc41c9149978e7bd07ac9e68bde3023))
+
+
+
 # [0.4.0](https://github.com/devlargs/largs-utils/compare/v0.3.2...v0.4.0) (2025-02-09)
 
 
@@ -32,15 +41,6 @@
 ### Features
 
 * updated script to include src files on lib ([142fef9](https://github.com/devlargs/largs-utils/commit/142fef94557fe6cfe4f79dd642af62cb69d3e1c3))
-
-
-
-## [0.2.2](https://github.com/devlargs/largs-utils/compare/v0.2.1...v0.2.2) (2024-08-06)
-
-
-### Bug Fixes
-
-* updated build command ([3920598](https://github.com/devlargs/largs-utils/commit/3920598586c8d9f94863d7d9f958bbc8f01806c6))
 
 
 
