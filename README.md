@@ -71,3 +71,16 @@ const array = [1, 2, 3, 4, 5];
 const shuffled = shuffleArray(array);
 console.log(shuffled); // e.g., [3, 1, 4, 5, 2]
 ```
+
+### `toKebabCase`
+
+Converts Sentence Case strings to kebab-case
+
+**Usage:**
+
+```typescript
+import { toKebabCase } from "largs-utils";
+
+console.log(toKebabCase("React Testing Library")); // react-testing-library
+console.log(toKebabCase("Aliessa Dedase")); // aliessa-dedase
+```
