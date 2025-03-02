@@ -1,3 +1,12 @@
+## [0.5.1](https://github.com/devlargs/largs-utils/compare/v0.5.0...v0.5.1) (2025-03-02)
+
+
+### Bug Fixes
+
+* export toKebabCase ([b31c91f](https://github.com/devlargs/largs-utils/commit/b31c91ffeaf371cc682d0ecdd22821127511320e))
+
+
+
 # [0.5.0](https://github.com/devlargs/largs-utils/compare/v0.4.0...v0.5.0) (2025-03-02)
 
 
@@ -32,15 +41,6 @@
 
 * the workflow must contain at least one job with no dependencies. ([51830d7](https://github.com/devlargs/largs-utils/commit/51830d75170446b329afc50a51c20d21daeda05d))
 * updated workflow sequences ([528b773](https://github.com/devlargs/largs-utils/commit/528b773190ff98476d2fc66d9ba48b05694f6b9d))
-
-
-
-# [0.3.0](https://github.com/devlargs/largs-utils/compare/v0.2.2...v0.3.0) (2024-08-06)
-
-
-### Features
-
-* updated script to include src files on lib ([142fef9](https://github.com/devlargs/largs-utils/commit/142fef94557fe6cfe4f79dd642af62cb69d3e1c3))
 
 
 
