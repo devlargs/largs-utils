@@ -97,3 +97,9 @@ import { toKebabCase } from "largs-utils";
 console.log(toKebabCase("React Testing Library")); // react-testing-library
 console.log(toKebabCase("Aliessa Dedase")); // aliessa-dedase
 ```
+
+#### Support my enthusiasm
+
+If you like this util, feel free to buy me a coffee ☕!
+
+[![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=☕&slug=yourusername&button_colour=FF813F&font_colour=ffffff&font_family=Comic&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/devlargs)
