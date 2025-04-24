@@ -1,3 +1,12 @@
+# [0.6.0](https://github.com/devlargs/largs-utils/compare/v0.5.1...v0.6.0) (2025-04-24)
+
+
+### Features
+
+* added generatePrefixedId util ([32fb7af](https://github.com/devlargs/largs-utils/commit/32fb7afdf8826b4535266ec035a10fe7864f33f2))
+
+
+
 ## [0.5.1](https://github.com/devlargs/largs-utils/compare/v0.5.0...v0.5.1) (2025-03-02)
 
 
@@ -31,16 +40,6 @@
 ### Bug Fixes
 
 * updated name of workflow ([eb057ca](https://github.com/devlargs/largs-utils/commit/eb057ca2d66f7a8d88eaa71194788e1871ab059c))
-
-
-
-## [0.3.1](https://github.com/devlargs/largs-utils/compare/v0.3.0...v0.3.1) (2024-08-06)
-
-
-### Bug Fixes
-
-* the workflow must contain at least one job with no dependencies. ([51830d7](https://github.com/devlargs/largs-utils/commit/51830d75170446b329afc50a51c20d21daeda05d))
-* updated workflow sequences ([528b773](https://github.com/devlargs/largs-utils/commit/528b773190ff98476d2fc66d9ba48b05694f6b9d))
 
 
 
