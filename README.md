@@ -42,6 +42,19 @@ const missingValue = coercedGet(obj, "a.b.x", 0);
 console.log(missingValue); // 0
 ```
 
+### `generatePrefixedId`
+
+Generates UUID with a prefix
+
+**Usage:**
+
+```typescript
+import { generatePrefixedId } from "largs-utils";
+
+generatePrefixedId("usr"); // usr_<uuid>
+generatePrefixedId("kyl"); // kyl_<uuid>
+```
+
 ### `isValidEmail`
 
 Validates if a given email address is in a proper format.
