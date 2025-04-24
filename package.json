@@ -27,5 +27,8 @@
     "largs",
     "largs-utils",
     "devlargs"
-  ]
+  ],
+  "dependencies": {
+    "uuid": "^11.1.0"
+  }
 }
