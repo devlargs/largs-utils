@@ -1,3 +1,12 @@
+## [0.6.1](https://github.com/devlargs/largs-utils/compare/v0.6.0...v0.6.1) (2025-04-25)
+
+
+### Bug Fixes
+
+* types for coercedGet should be generic ([3eb871b](https://github.com/devlargs/largs-utils/commit/3eb871b12e6076a5c918e6dff4b7d30c82c080ac))
+
+
+
 # [0.6.0](https://github.com/devlargs/largs-utils/compare/v0.5.1...v0.6.0) (2025-04-24)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added camelToSentenceCase util ([6e8c4d6](https://github.com/devlargs/largs-utils/commit/6e8c4d6381e956a7611f048adf4a21176a7f9b4f))
-
-
-
-## [0.3.2](https://github.com/devlargs/largs-utils/compare/v0.3.1...v0.3.2) (2024-08-06)
-
-
-### Bug Fixes
-
-* updated name of workflow ([eb057ca](https://github.com/devlargs/largs-utils/commit/eb057ca2d66f7a8d88eaa71194788e1871ab059c))
 
 
 
