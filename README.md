@@ -71,6 +71,22 @@ console.log(isValidEmail(email1)); // true
 console.log(isValidEmail(email2)); // false
 ```
 
+### `isValidHttpUrl`
+
+Validates if a given string is a valid URL
+
+**Usage:**
+
+```typescript
+import { isValidHttpUrl } from "largs-utils";
+
+isValidHttpUrl("https://google.com"); // true
+isValidHttpUrl("http://example.com"); // true
+isValidHttpUrl("ftp://fileserver.com"); // false
+isValidHttpUrl("javascript:alert(1)"); // false
+isValidHttpUrl("random-string"); // false
+```
+
 ### `shuffleArray `
 
 Randomly shuffles the elements of an array.
