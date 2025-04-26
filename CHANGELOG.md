@@ -1,3 +1,12 @@
+# [0.7.0](https://github.com/devlargs/largs-utils/compare/v0.6.1...v0.7.0) (2025-04-26)
+
+
+### Features
+
+* added isValidUrl util ([b57f44a](https://github.com/devlargs/largs-utils/commit/b57f44ab44756f138654c8673aadf607c028f599))
+
+
+
 ## [0.6.1](https://github.com/devlargs/largs-utils/compare/v0.6.0...v0.6.1) (2025-04-25)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added toKebabCase util ([5993569](https://github.com/devlargs/largs-utils/commit/599356956fc41c9149978e7bd07ac9e68bde3023))
-
-
-
-# [0.4.0](https://github.com/devlargs/largs-utils/compare/v0.3.2...v0.4.0) (2025-02-09)
-
-
-### Features
-
-* added camelToSentenceCase util ([6e8c4d6](https://github.com/devlargs/largs-utils/commit/6e8c4d6381e956a7611f048adf4a21176a7f9b4f))
 
 
 
