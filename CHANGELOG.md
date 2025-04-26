@@ -1,3 +1,12 @@
+## [0.8.2](https://github.com/devlargs/largs-utils/compare/v0.8.1...v0.8.2) (2025-04-26)
+
+
+### Bug Fixes
+
+* __tests__ are generated on build time ([cc8c221](https://github.com/devlargs/largs-utils/commit/cc8c221b21a13a4aabe42d3785c965b01dd31217))
+
+
+
 ## [0.8.1](https://github.com/devlargs/largs-utils/compare/v0.8.0...v0.8.1) (2025-04-26)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * types for coercedGet should be generic ([3eb871b](https://github.com/devlargs/largs-utils/commit/3eb871b12e6076a5c918e6dff4b7d30c82c080ac))
-
-
-
-# [0.6.0](https://github.com/devlargs/largs-utils/compare/v0.5.1...v0.6.0) (2025-04-24)
-
-
-### Features
-
-* added generatePrefixedId util ([32fb7af](https://github.com/devlargs/largs-utils/commit/32fb7afdf8826b4535266ec035a10fe7864f33f2))
 
 
 
