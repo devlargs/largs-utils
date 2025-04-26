@@ -1,3 +1,13 @@
+# [0.8.0](https://github.com/devlargs/largs-utils/compare/v0.7.0...v0.8.0) (2025-04-26)
+
+
+### Features
+
+* added isValidGoogleMapsUrl util ([6f1b04e](https://github.com/devlargs/largs-utils/commit/6f1b04e0f12e6b31341300fb4a957aecac295434))
+* added latitude and longitude extractor from a valid googlemap link ([b6cadbc](https://github.com/devlargs/largs-utils/commit/b6cadbc454d1b551a52c2ecbab3193640bf556f9))
+
+
+
 # [0.7.0](https://github.com/devlargs/largs-utils/compare/v0.6.1...v0.7.0) (2025-04-26)
 
 
@@ -31,15 +41,6 @@
 ### Bug Fixes
 
 * export toKebabCase ([b31c91f](https://github.com/devlargs/largs-utils/commit/b31c91ffeaf371cc682d0ecdd22821127511320e))
-
-
-
-# [0.5.0](https://github.com/devlargs/largs-utils/compare/v0.4.0...v0.5.0) (2025-03-02)
-
-
-### Features
-
-* added toKebabCase util ([5993569](https://github.com/devlargs/largs-utils/commit/599356956fc41c9149978e7bd07ac9e68bde3023))
 
 
 
