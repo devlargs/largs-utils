@@ -1,5 +1,6 @@
 export { camelToSentenceCase } from "./camelToSentenceCase";
 export { coercedGet } from "./coercedGet";
+export { extractLatLngFromGoogleMapsUrl } from "./extractLatLngFromGoogleMapsUrl";
 export { generatePrefixedId } from "./generatePrefixedId";
 export { isValidEmail } from "./isValidEmail";
 export { isValidGoogleMapsUrl } from "./isValidGoogleMapsUrl";
