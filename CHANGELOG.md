@@ -1,3 +1,12 @@
+## [0.8.1](https://github.com/devlargs/largs-utils/compare/v0.8.0...v0.8.1) (2025-04-26)
+
+
+### Bug Fixes
+
+* extractLatLngFromGoogleMapsUrl issue on export ([5d2504f](https://github.com/devlargs/largs-utils/commit/5d2504fb5b10672311c3d636d428617d63c539ce))
+
+
+
 # [0.8.0](https://github.com/devlargs/largs-utils/compare/v0.7.0...v0.8.0) (2025-04-26)
 
 
@@ -32,15 +41,6 @@
 ### Features
 
 * added generatePrefixedId util ([32fb7af](https://github.com/devlargs/largs-utils/commit/32fb7afdf8826b4535266ec035a10fe7864f33f2))
-
-
-
-## [0.5.1](https://github.com/devlargs/largs-utils/compare/v0.5.0...v0.5.1) (2025-03-02)
-
-
-### Bug Fixes
-
-* export toKebabCase ([b31c91f](https://github.com/devlargs/largs-utils/commit/b31c91ffeaf371cc682d0ecdd22821127511320e))
 
 
 
