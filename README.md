@@ -87,6 +87,23 @@ isValidHttpUrl("javascript:alert(1)"); // false
 isValidHttpUrl("random-string"); // false
 ```
 
+### `isValidGoogleMapsUrl`
+
+Detect if a URL is a valid Google Maps link
+
+**Usage:**
+
+```typescript
+import { isValidGoogleMapsUrl } from "largs-utils";
+
+isValidGoogleMapsUrl(
+  "https://www.google.com/maps/place/Metrotent+Convention+Center/@14.58631,121.06406,17z"
+); // true
+isValidGoogleMapsUrl("https://maps.google.com/maps?q=place"); // true
+isValidGoogleMapsUrl("https://www.example.com/maps/place"); // false
+isValidGoogleMapsUrl("not a url"); // false
+```
+
 ### `shuffleArray `
 
 Randomly shuffles the elements of an array.
