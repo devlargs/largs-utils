@@ -42,6 +42,22 @@ const missingValue = coercedGet(obj, "a.b.x", 0);
 console.log(missingValue); // 0
 ```
 
+### `extractLatLngFromGoogleMapsUrl `
+
+Extracts the longitude and latitude to a valid google maps url link
+
+**Usage:**
+
+```typescript
+import { extractLatLngFromGoogleMapsUrl } from "largs-utils";
+
+extractLatLngFromGoogleMapsUrl(
+  "https://www.google.com/maps/@40.7128,-74.0060,15z"
+); // { latitude: 40.7128, longitude: -74.006 }
+
+extractLatLngFromGoogleMapsUrl("https://googlemaps.com"); // null
+```
+
 ### `generatePrefixedId`
 
 Generates UUID with a prefix

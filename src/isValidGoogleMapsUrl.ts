@@ -10,7 +10,6 @@ export const isValidGoogleMapsUrl = (url: string): boolean => {
 
     if (!(isGoogleMapsDomain && isMapsPath)) return false;
 
-    // Regex to match lat,lng in the URL path or query string
     const latLngRegex = /@(-?\d+(\.\d+)?),(-?\d+(\.\d+)?)/;
 
     return latLngRegex.test(parsedUrl.href);
