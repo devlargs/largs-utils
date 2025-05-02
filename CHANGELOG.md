@@ -1,3 +1,12 @@
+# [0.9.0](https://github.com/devlargs/largs-utils/compare/v0.8.2...v0.9.0) (2025-05-02)
+
+
+### Features
+
+* added generateSlug util ([01e4afa](https://github.com/devlargs/largs-utils/commit/01e4afa9d65b23700d5939e5bc39b3b611c5a8ed))
+
+
+
 ## [0.8.2](https://github.com/devlargs/largs-utils/compare/v0.8.1...v0.8.2) (2025-04-26)
 
 
@@ -32,15 +41,6 @@
 ### Features
 
 * added isValidUrl util ([b57f44a](https://github.com/devlargs/largs-utils/commit/b57f44ab44756f138654c8673aadf607c028f599))
-
-
-
-## [0.6.1](https://github.com/devlargs/largs-utils/compare/v0.6.0...v0.6.1) (2025-04-25)
-
-
-### Bug Fixes
-
-* types for coercedGet should be generic ([3eb871b](https://github.com/devlargs/largs-utils/commit/3eb871b12e6076a5c918e6dff4b7d30c82c080ac))
 
 
 
