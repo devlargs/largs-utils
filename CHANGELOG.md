@@ -1,3 +1,12 @@
+## [0.10.1](https://github.com/devlargs/largs-utils/compare/v0.10.0...v0.10.1) (2025-05-13)
+
+
+### Bug Fixes
+
+* export unslugify module ([571658e](https://github.com/devlargs/largs-utils/commit/571658ee37048cbb918bf3f5a1d181f49957169a))
+
+
+
 # [0.10.0](https://github.com/devlargs/largs-utils/compare/v0.9.0...v0.10.0) (2025-05-13)
 
 
@@ -31,16 +40,6 @@
 ### Bug Fixes
 
 * extractLatLngFromGoogleMapsUrl issue on export ([5d2504f](https://github.com/devlargs/largs-utils/commit/5d2504fb5b10672311c3d636d428617d63c539ce))
-
-
-
-# [0.8.0](https://github.com/devlargs/largs-utils/compare/v0.7.0...v0.8.0) (2025-04-26)
-
-
-### Features
-
-* added isValidGoogleMapsUrl util ([6f1b04e](https://github.com/devlargs/largs-utils/commit/6f1b04e0f12e6b31341300fb4a957aecac295434))
-* added latitude and longitude extractor from a valid googlemap link ([b6cadbc](https://github.com/devlargs/largs-utils/commit/b6cadbc454d1b551a52c2ecbab3193640bf556f9))
 
 
 
