@@ -147,6 +147,20 @@ console.log(toKebabCase("React Testing Library")); // react-testing-library
 console.log(toKebabCase("Aliessa Dedase")); // aliessa-dedase
 ```
 
+### `unslugify`
+
+Convert slugs to Sentence Case
+
+**Usage:**
+
+```typescript
+import { unslugify } from "largs-utils";
+
+unslugify("my-awesome-title"); // "My Awesome Title"
+unslugify("hello_world"); // "Hello World"
+unslugify("  spaced--out__slug "); // "Spaced Out Slug"
+```
+
 #### Support my enthusiasm
 
 If you like this util, feel free to buy me a coffee ☕!
