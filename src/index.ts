@@ -8,3 +8,4 @@ export { isValidGoogleMapsUrl } from "./isValidGoogleMapsUrl";
 export { isValidHttpUrl } from "./isValidHttpUrl";
 export { shuffleArray } from "./shuffleArray";
 export { toKebabCase } from "./toKebabCase";
+export { unslugify } from "./unslugify";
