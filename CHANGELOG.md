@@ -1,3 +1,12 @@
+## [0.10.2](https://github.com/devlargs/largs-utils/compare/v0.10.1...v0.10.2) (2025-05-22)
+
+
+### Bug Fixes
+
+* added catch excemption handlers for utils ([fd105b3](https://github.com/devlargs/largs-utils/commit/fd105b391d9d8595bb6ba72780da21b20b4df8a5))
+
+
+
 ## [0.10.1](https://github.com/devlargs/largs-utils/compare/v0.10.0...v0.10.1) (2025-05-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * __tests__ are generated on build time ([cc8c221](https://github.com/devlargs/largs-utils/commit/cc8c221b21a13a4aabe42d3785c965b01dd31217))
-
-
-
-## [0.8.1](https://github.com/devlargs/largs-utils/compare/v0.8.0...v0.8.1) (2025-04-26)
-
-
-### Bug Fixes
-
-* extractLatLngFromGoogleMapsUrl issue on export ([5d2504f](https://github.com/devlargs/largs-utils/commit/5d2504fb5b10672311c3d636d428617d63c539ce))
 
 
 
