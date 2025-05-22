@@ -7,10 +7,10 @@ describe("shuffleArray", () => {
 
     expect(shuffledArray).toHaveLength(array.length);
     expect(shuffledArray).toEqual(expect.arrayContaining(array));
-    expect(array).toEqual(expect.arrayContaining(shuffledArray));
+    expect(array).toEqual(expect.arrayContaining(shuffledArray!));
 
     const isOrderDifferent = array.some(
-      (value, index) => value !== shuffledArray[index]
+      (value, index) => value !== shuffledArray?.[index]
     );
     expect(isOrderDifferent).toBe(true);
   });
