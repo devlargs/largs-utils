@@ -1,6 +1,7 @@
 export { camelToSentenceCase } from "./camelToSentenceCase";
 export { coercedGet } from "./coercedGet";
 export { extractLatLngFromGoogleMapsUrl } from "./extractLatLngFromGoogleMapsUrl";
+export { extractYouTubeVideoID } from "./extractYoutubeVideoId";
 export { generatePrefixedId } from "./generatePrefixedId";
 export { generateSlug } from "./generateSlug";
 export { isValidEmail } from "./isValidEmail";

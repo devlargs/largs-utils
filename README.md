@@ -58,6 +58,20 @@ extractLatLngFromGoogleMapsUrl(
 extractLatLngFromGoogleMapsUrl("https://googlemaps.com"); // null
 ```
 
+### `extractYoutubeVideoId`
+
+Extract a YouTube video ID from different kinds of YouTube URLs
+
+```typescript
+console.log(
+  extractYouTubeVideoID("https://www.youtube.com/watch?v=JWJz_MS1-I8&t=1815s")
+);
+// Output: "JWJz_MS1-I8"
+
+console.log(extractYouTubeVideoID("https://youtu.be/JWJz_MS1-I8"));
+// Output: "JWJz_MS1-I8"
+```
+
 ### `generatePrefixedId`
 
 Generates UUID with a prefix
