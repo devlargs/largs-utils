@@ -1,3 +1,12 @@
+# [0.11.0](https://github.com/devlargs/largs-utils/compare/v0.10.2...v0.11.0) (2025-06-01)
+
+
+### Features
+
+* added extractYoutubeVideoId util ([0952765](https://github.com/devlargs/largs-utils/commit/0952765824818970d6702313a8c30537c33016db))
+
+
+
 ## [0.10.2](https://github.com/devlargs/largs-utils/compare/v0.10.1...v0.10.2) (2025-05-22)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added generateSlug util ([01e4afa](https://github.com/devlargs/largs-utils/commit/01e4afa9d65b23700d5939e5bc39b3b611c5a8ed))
-
-
-
-## [0.8.2](https://github.com/devlargs/largs-utils/compare/v0.8.1...v0.8.2) (2025-04-26)
-
-
-### Bug Fixes
-
-* __tests__ are generated on build time ([cc8c221](https://github.com/devlargs/largs-utils/commit/cc8c221b21a13a4aabe42d3785c965b01dd31217))
 
 
 
