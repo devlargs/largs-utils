@@ -4,6 +4,7 @@ export { extractLatLngFromGoogleMapsUrl } from "./extractLatLngFromGoogleMapsUrl
 export { extractYouTubeVideoID } from "./extractYoutubeVideoId";
 export { generatePrefixedId } from "./generatePrefixedId";
 export { generateSlug } from "./generateSlug";
+export { getYoutubeThumbnail } from "./getYoutubeThumbnail";
 export { isValidEmail } from "./isValidEmail";
 export { isValidGoogleMapsUrl } from "./isValidGoogleMapsUrl";
 export { isValidHttpUrl } from "./isValidHttpUrl";

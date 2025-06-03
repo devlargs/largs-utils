@@ -63,13 +63,8 @@ extractLatLngFromGoogleMapsUrl("https://googlemaps.com"); // null
 Extract a YouTube video ID from different kinds of YouTube URLs
 
 ```typescript
-console.log(
-  extractYouTubeVideoID("https://www.youtube.com/watch?v=JWJz_MS1-I8&t=1815s")
-);
-// Output: "JWJz_MS1-I8"
-
-console.log(extractYouTubeVideoID("https://youtu.be/JWJz_MS1-I8"));
-// Output: "JWJz_MS1-I8"
+extractYouTubeVideoID("https://www.youtube.com/watch?v=JWJz_MS1-I8&t=1815s"); // JWJz_MS1-I8
+extractYouTubeVideoID("https://youtu.be/JWJz_MS1-I8"); // JWJz_MS1-I8
 ```
 
 ### `generatePrefixedId`
@@ -83,6 +78,18 @@ import { generatePrefixedId } from "largs-utils";
 
 generatePrefixedId("usr"); // usr_<uuid>
 generatePrefixedId("kyl"); // kyl_<uuid>
+```
+
+### `getYoutubeThumbnail`
+
+Returns a youtube thumbnail for a given youtube video
+
+**Usage:**
+
+```typescript
+import { getYoutubeThumbnail } from "largs-utils";
+
+getYoutubeThumbnail("dQw4w9WgXcQ"); // `https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg`
 ```
 
 ### `isValidEmail`
