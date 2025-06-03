@@ -1,3 +1,12 @@
+# [0.12.0](https://github.com/devlargs/largs-utils/compare/v0.11.0...v0.12.0) (2025-06-03)
+
+
+### Features
+
+* returns a youtube thumbnail from a given youtube video ([3ae0b14](https://github.com/devlargs/largs-utils/commit/3ae0b14c56ac978f3c9c1b36ff5c272e6bfd7b3c))
+
+
+
 # [0.11.0](https://github.com/devlargs/largs-utils/compare/v0.10.2...v0.11.0) (2025-06-01)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * added unslugify util ([e79cb46](https://github.com/devlargs/largs-utils/commit/e79cb46d5ba53bd4f5a9f214078851bf1ad079e1))
-
-
-
-# [0.9.0](https://github.com/devlargs/largs-utils/compare/v0.8.2...v0.9.0) (2025-05-02)
-
-
-### Features
-
-* added generateSlug util ([01e4afa](https://github.com/devlargs/largs-utils/commit/01e4afa9d65b23700d5939e5bc39b3b611c5a8ed))
 
 
 
