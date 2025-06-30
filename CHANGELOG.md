@@ -1,3 +1,12 @@
+## [0.15.1](https://github.com/devlargs/largs-utils/compare/v0.15.0...v0.15.1) (2025-06-30)
+
+
+### Bug Fixes
+
+* twitter must resolve x links ([213e33a](https://github.com/devlargs/largs-utils/commit/213e33a8df598320ef7583f3629246876df20515))
+
+
+
 # [0.15.0](https://github.com/devlargs/largs-utils/compare/v0.14.0...v0.15.0) (2025-06-30)
 
 
@@ -32,15 +41,6 @@
 ### Features
 
 * returns a youtube thumbnail from a given youtube video ([3ae0b14](https://github.com/devlargs/largs-utils/commit/3ae0b14c56ac978f3c9c1b36ff5c272e6bfd7b3c))
-
-
-
-# [0.11.0](https://github.com/devlargs/largs-utils/compare/v0.10.2...v0.11.0) (2025-06-01)
-
-
-### Features
-
-* added extractYoutubeVideoId util ([0952765](https://github.com/devlargs/largs-utils/commit/0952765824818970d6702313a8c30537c33016db))
 
 
 
