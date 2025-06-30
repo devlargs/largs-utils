@@ -1,3 +1,13 @@
+# [0.15.0](https://github.com/devlargs/largs-utils/compare/v0.14.0...v0.15.0) (2025-06-30)
+
+
+### Features
+
+* added spotify and youtube checker ([f75c453](https://github.com/devlargs/largs-utils/commit/f75c453de4bdf27c08fa957568f1d4e217d29df4))
+* created isValidSocialLink ([c81521c](https://github.com/devlargs/largs-utils/commit/c81521c6fde182eb3ea3c07e36e060673661b5c6))
+
+
+
 # [0.14.0](https://github.com/devlargs/largs-utils/compare/v0.13.0...v0.14.0) (2025-06-30)
 
 
@@ -31,15 +41,6 @@
 ### Features
 
 * added extractYoutubeVideoId util ([0952765](https://github.com/devlargs/largs-utils/commit/0952765824818970d6702313a8c30537c33016db))
-
-
-
-## [0.10.2](https://github.com/devlargs/largs-utils/compare/v0.10.1...v0.10.2) (2025-05-22)
-
-
-### Bug Fixes
-
-* added catch excemption handlers for utils ([fd105b3](https://github.com/devlargs/largs-utils/commit/fd105b391d9d8595bb6ba72780da21b20b4df8a5))
 
 
 
