@@ -6,6 +6,8 @@ export { generatePrefixedId } from "./generatePrefixedId";
 export { generateSlug } from "./generateSlug";
 export { getYoutubeThumbnail } from "./getYoutubeThumbnail";
 export { isFacebookUrl } from "./isFacebookUrl";
+export { isInstagramUrl } from "./isInstagramUrl";
+export { isTwitterUrl } from "./isXUrl";
 export { isValidEmail } from "./isValidEmail";
 export { isValidGoogleMapsUrl } from "./isValidGoogleMapsUrl";
 export { isValidHttpUrl } from "./isValidHttpUrl";

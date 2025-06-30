@@ -127,6 +127,42 @@ isFacebookUrl("ftp://facebook.com"); // false
 isFacebookUrl("not-a-url"); // false
 ```
 
+### `isTwitterUrl`
+
+Validates if a given string is a valid Twitter/X URL.
+
+**Usage:**
+
+```typescript
+import { isTwitterUrl } from "largs-utils";
+
+isTwitterUrl("https://twitter.com/username"); // true
+isTwitterUrl("https://www.twitter.com/status/123"); // true
+isTwitterUrl("https://x.com/username"); // true
+isTwitterUrl("https://www.x.com/status/123"); // true
+isTwitterUrl("https://mobile.twitter.com/username"); // true
+isTwitterUrl("https://google.com"); // false
+isTwitterUrl("ftp://twitter.com"); // false
+isTwitterUrl("not-a-url"); // false
+```
+
+### `isInstagramUrl`
+
+Validates if a given string is a valid Instagram URL.
+
+**Usage:**
+
+```typescript
+import { isInstagramUrl } from "largs-utils";
+
+isInstagramUrl("https://instagram.com/username"); // true
+isInstagramUrl("https://www.instagram.com/p/ABC123"); // true
+isInstagramUrl("https://mobile.instagram.com/username"); // true
+isInstagramUrl("https://google.com"); // false
+isInstagramUrl("ftp://instagram.com"); // false
+isInstagramUrl("not-a-url"); // false
+```
+
 ### `isValidHttpUrl`
 
 Validates if a given string is a valid URL
