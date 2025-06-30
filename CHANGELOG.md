@@ -1,3 +1,12 @@
+# [0.13.0](https://github.com/devlargs/largs-utils/compare/v0.12.0...v0.13.0) (2025-06-30)
+
+
+### Features
+
+* added isFacebookUrl validator ([619422e](https://github.com/devlargs/largs-utils/commit/619422e7515ad0772387f935108fe53383ded9c8))
+
+
+
 # [0.12.0](https://github.com/devlargs/largs-utils/compare/v0.11.0...v0.12.0) (2025-06-03)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * export unslugify module ([571658e](https://github.com/devlargs/largs-utils/commit/571658ee37048cbb918bf3f5a1d181f49957169a))
-
-
-
-# [0.10.0](https://github.com/devlargs/largs-utils/compare/v0.9.0...v0.10.0) (2025-05-13)
-
-
-### Features
-
-* added unslugify util ([e79cb46](https://github.com/devlargs/largs-utils/commit/e79cb46d5ba53bd4f5a9f214078851bf1ad079e1))
 
 
 
