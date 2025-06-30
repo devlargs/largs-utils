@@ -42,7 +42,7 @@ const missingValue = coercedGet(obj, "a.b.x", 0);
 console.log(missingValue); // 0
 ```
 
-### `extractLatLngFromGoogleMapsUrl `
+### `extractLatLngFromGoogleMapsUrl`
 
 Extracts the longitude and latitude to a valid google maps url link
 
@@ -80,6 +80,19 @@ generatePrefixedId("usr"); // usr_<uuid>
 generatePrefixedId("kyl"); // kyl_<uuid>
 ```
 
+### `generateSlug`
+
+Converts a string to a URL-friendly slug format.
+
+**Usage:**
+
+```typescript
+import { generateSlug } from "largs-utils";
+
+generateSlug("Hello World!"); // "hello-world"
+generateSlug("My Awesome Title"); // "my-awesome-title"
+```
+
 ### `getYoutubeThumbnail`
 
 Returns a youtube thumbnail for a given youtube video
@@ -90,22 +103,6 @@ Returns a youtube thumbnail for a given youtube video
 import { getYoutubeThumbnail } from "largs-utils";
 
 getYoutubeThumbnail("dQw4w9WgXcQ"); // `https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg`
-```
-
-### `isValidEmail`
-
-Validates if a given email address is in a proper format.
-
-**Usage:**
-
-```typescript
-import { isValidEmail } from "largs-utils";
-
-const email1 = "test@example.com";
-const email2 = "invalid-email";
-
-console.log(isValidEmail(email1)); // true
-console.log(isValidEmail(email2)); // false
 ```
 
 ### `isFacebookUrl`
@@ -127,6 +124,41 @@ isFacebookUrl("ftp://facebook.com"); // false
 isFacebookUrl("not-a-url"); // false
 ```
 
+### `isInstagramUrl`
+
+Validates if a given string is a valid Instagram URL.
+
+**Usage:**
+
+```typescript
+import { isInstagramUrl } from "largs-utils";
+
+isInstagramUrl("https://instagram.com/username"); // true
+isInstagramUrl("https://www.instagram.com/p/ABC123"); // true
+isInstagramUrl("https://mobile.instagram.com/username"); // true
+isInstagramUrl("https://google.com"); // false
+isInstagramUrl("ftp://instagram.com"); // false
+isInstagramUrl("not-a-url"); // false
+```
+
+### `isSpotifyUrl`
+
+Validates if a given string is a valid Spotify URL.
+
+**Usage:**
+
+```typescript
+import { isSpotifyUrl } from "largs-utils";
+
+isSpotifyUrl("https://spotify.com/track/123"); // true
+isSpotifyUrl("https://open.spotify.com/track/4iV5W9uYEdYUVa79Axb7Rh"); // true
+isSpotifyUrl("https://www.spotify.com/artist/456"); // true
+isSpotifyUrl("https://accounts.spotify.com"); // true
+isSpotifyUrl("https://google.com"); // false
+isSpotifyUrl("ftp://spotify.com"); // false
+isSpotifyUrl("not-a-url"); // false
+```
+
 ### `isTwitterUrl`
 
 Validates if a given string is a valid Twitter/X URL.
@@ -146,37 +178,39 @@ isTwitterUrl("ftp://twitter.com"); // false
 isTwitterUrl("not-a-url"); // false
 ```
 
-### `isInstagramUrl`
+### `isYoutubeUrl`
 
-Validates if a given string is a valid Instagram URL.
+Validates if a given string is a valid YouTube URL.
 
 **Usage:**
 
 ```typescript
-import { isInstagramUrl } from "largs-utils";
+import { isYoutubeUrl } from "largs-utils";
 
-isInstagramUrl("https://instagram.com/username"); // true
-isInstagramUrl("https://www.instagram.com/p/ABC123"); // true
-isInstagramUrl("https://mobile.instagram.com/username"); // true
-isInstagramUrl("https://google.com"); // false
-isInstagramUrl("ftp://instagram.com"); // false
-isInstagramUrl("not-a-url"); // false
+isYoutubeUrl("https://youtube.com/watch?v=dQw4w9WgXcQ"); // true
+isYoutubeUrl("https://www.youtube.com/watch?v=dQw4w9WgXcQ"); // true
+isYoutubeUrl("https://youtu.be/dQw4w9WgXcQ"); // true
+isYoutubeUrl("https://m.youtube.com/watch?v=dQw4w9WgXcQ"); // true
+isYoutubeUrl("https://music.youtube.com"); // true
+isYoutubeUrl("https://google.com"); // false
+isYoutubeUrl("ftp://youtube.com"); // false
+isYoutubeUrl("not-a-url"); // false
 ```
 
-### `isValidHttpUrl`
+### `isValidEmail`
 
-Validates if a given string is a valid URL
+Validates if a given email address is in a proper format.
 
 **Usage:**
 
 ```typescript
-import { isValidHttpUrl } from "largs-utils";
+import { isValidEmail } from "largs-utils";
 
-isValidHttpUrl("https://google.com"); // true
-isValidHttpUrl("http://example.com"); // true
-isValidHttpUrl("ftp://fileserver.com"); // false
-isValidHttpUrl("javascript:alert(1)"); // false
-isValidHttpUrl("random-string"); // false
+const email1 = "test@example.com";
+const email2 = "invalid-email";
+
+console.log(isValidEmail(email1)); // true
+console.log(isValidEmail(email2)); // false
 ```
 
 ### `isValidGoogleMapsUrl`
@@ -196,7 +230,23 @@ isValidGoogleMapsUrl("https://www.example.com/maps/place"); // false
 isValidGoogleMapsUrl("not a url"); // false
 ```
 
-### `shuffleArray `
+### `isValidHttpUrl`
+
+Validates if a given string is a valid URL
+
+**Usage:**
+
+```typescript
+import { isValidHttpUrl } from "largs-utils";
+
+isValidHttpUrl("https://google.com"); // true
+isValidHttpUrl("http://example.com"); // true
+isValidHttpUrl("ftp://fileserver.com"); // false
+isValidHttpUrl("javascript:alert(1)"); // false
+isValidHttpUrl("random-string"); // false
+```
+
+### `shuffleArray`
 
 Randomly shuffles the elements of an array.
 
