@@ -1,3 +1,12 @@
+# [0.14.0](https://github.com/devlargs/largs-utils/compare/v0.13.0...v0.14.0) (2025-06-30)
+
+
+### Features
+
+* added isTwitterUrl and isInstagramUrl ([87bf6d4](https://github.com/devlargs/largs-utils/commit/87bf6d4473445b354f0731af065f79a06d12f961))
+
+
+
 # [0.13.0](https://github.com/devlargs/largs-utils/compare/v0.12.0...v0.13.0) (2025-06-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * added catch excemption handlers for utils ([fd105b3](https://github.com/devlargs/largs-utils/commit/fd105b391d9d8595bb6ba72780da21b20b4df8a5))
-
-
-
-## [0.10.1](https://github.com/devlargs/largs-utils/compare/v0.10.0...v0.10.1) (2025-05-13)
-
-
-### Bug Fixes
-
-* export unslugify module ([571658e](https://github.com/devlargs/largs-utils/commit/571658ee37048cbb918bf3f5a1d181f49957169a))
 
 
 
