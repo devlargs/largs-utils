@@ -37,4 +37,21 @@ describe("camelToSentenceCase", () => {
   test("should handle strings with numbers", () => {
     expect(camelToSentenceCase("version2Update")).toBe("Version2Update");
   });
+
+  test("should handle error cases gracefully", () => {
+    // Mock console.error to avoid noise in tests
+    const consoleSpy = jest
+      .spyOn(console, "error")
+      .mockImplementation(() => {});
+
+    // Test with null/undefined to trigger error handling
+    expect(camelToSentenceCase(null as any)).toBeUndefined();
+    expect(camelToSentenceCase(undefined as any)).toBeUndefined();
+
+    // Test with non-string input that would cause an error
+    expect(camelToSentenceCase(123 as any)).toBeUndefined();
+
+    expect(consoleSpy).toHaveBeenCalled();
+    consoleSpy.mockRestore();
+  });
 });

@@ -47,4 +47,22 @@ describe("coercedGet", () => {
     expect(coercedGet(testData, "user.address.zip")).toBe("10001");
     expect(coercedGet(testData, "user.posts[0].title")).toBe("Hello World");
   });
+
+  test("should handle error cases gracefully", () => {
+    // Mock console.error to avoid noise in tests
+    const consoleSpy = jest
+      .spyOn(console, "error")
+      .mockImplementation(() => {});
+
+    // Test with null/undefined object to trigger error handling
+    expect(coercedGet(null as any, "user.name")).toBeUndefined();
+    expect(coercedGet(undefined as any, "user.name")).toBeUndefined();
+
+    // Test with invalid path that would cause an error
+    expect(coercedGet(testData, null as any)).toBeUndefined();
+    expect(coercedGet(testData, undefined as any)).toBeUndefined();
+
+    expect(consoleSpy).toHaveBeenCalled();
+    consoleSpy.mockRestore();
+  });
 });

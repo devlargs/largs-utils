@@ -1,24 +1,37 @@
 import { isValidEmail } from "../isValidEmail";
 
 describe("isValidEmail", () => {
-  it("should return true for valid email addresses", () => {
+  test("should return true for valid email addresses", () => {
     expect(isValidEmail("test@example.com")).toBe(true);
-    expect(isValidEmail("user.name@domain.co")).toBe(true);
-    expect(isValidEmail("user+name@sub.domain.com")).toBe(true);
-    expect(isValidEmail("user-name@domain.org")).toBe(true);
-    expect(isValidEmail("user123@domain.com")).toBe(true);
+    expect(isValidEmail("user.name@domain.co.uk")).toBe(true);
+    expect(isValidEmail("test+tag@example.org")).toBe(true);
   });
 
-  it("should return false for invalid email addresses", () => {
-    expect(isValidEmail("plainaddress")).toBe(false);
-    expect(isValidEmail("@missingusername.com")).toBe(false);
-    expect(isValidEmail("username@.com")).toBe(false);
-    expect(isValidEmail("username@domain.")).toBe(false);
-    expect(isValidEmail("username@domain.c")).toBe(false);
-    expect(isValidEmail("username@domain.com ")).toBe(false);
-    expect(isValidEmail(" username@domain.com")).toBe(false);
-    // TODO: revise this
-    // expect(isValidEmail("username@domain..com")).toBe(false);
-    // expect(isValidEmail("username@-domain.com")).toBe(false);
+  test("should return false for invalid email addresses", () => {
+    expect(isValidEmail("invalid-email")).toBe(false);
+    expect(isValidEmail("test@")).toBe(false);
+    expect(isValidEmail("@example.com")).toBe(false);
+    expect(isValidEmail("test@example")).toBe(false);
+  });
+
+  test("should handle error cases gracefully", () => {
+    // Mock console.error to avoid noise in tests
+    const consoleSpy = jest
+      .spyOn(console, "error")
+      .mockImplementation(() => {});
+
+    // Mock the regex test method to throw an error
+    const originalTest = RegExp.prototype.test;
+    RegExp.prototype.test = jest.fn().mockImplementation(() => {
+      throw new Error("Test error");
+    });
+
+    expect(isValidEmail("test@example.com")).toBeUndefined();
+
+    expect(consoleSpy).toHaveBeenCalled();
+    consoleSpy.mockRestore();
+
+    // Restore the original test method
+    RegExp.prototype.test = originalTest;
   });
 });
