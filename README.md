@@ -246,6 +246,42 @@ isValidHttpUrl("javascript:alert(1)"); // false
 isValidHttpUrl("random-string"); // false
 ```
 
+### `isValidSocialLink`
+
+Validates if a given string is a valid social media URL for the specified platform.
+
+**Usage:**
+
+```typescript
+import { isValidSocialLink } from "largs-utils";
+
+// Facebook URLs
+isValidSocialLink("https://facebook.com/profile", "facebook"); // true
+isValidSocialLink("https://www.facebook.com/pages", "facebook"); // true
+isValidSocialLink("https://fb.com/short", "facebook"); // true
+
+// Instagram URLs
+isValidSocialLink("https://instagram.com/username", "instagram"); // true
+isValidSocialLink("https://www.instagram.com/p/ABC123", "instagram"); // true
+
+// Spotify URLs
+isValidSocialLink("https://open.spotify.com/track/123", "spotify"); // true
+isValidSocialLink("https://www.spotify.com/artist/456", "spotify"); // true
+
+// Twitter URLs
+isValidSocialLink("https://twitter.com/username", "twitter"); // true
+isValidSocialLink("https://www.twitter.com/status/123", "twitter"); // true
+
+// YouTube URLs
+isValidSocialLink("https://youtube.com/watch?v=123", "youtube"); // true
+isValidSocialLink("https://youtu.be/dQw4w9WgXcQ", "youtube"); // true
+
+// Invalid cases
+isValidSocialLink("https://google.com", "facebook"); // false
+isValidSocialLink("ftp://facebook.com", "facebook"); // false
+isValidSocialLink("not-a-url", "instagram"); // false
+```
+
 ### `shuffleArray`
 
 Randomly shuffles the elements of an array.

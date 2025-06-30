@@ -9,6 +9,7 @@ export { isFacebookUrl } from "./isFacebookUrl";
 export { isInstagramUrl } from "./isInstagramUrl";
 export { isSpotifyUrl } from "./isSpotifyUrl";
 export { isTwitterUrl } from "./isXUrl";
+export { isValidSocialLink } from "./isValidSocialLink";
 export { isYoutubeUrl } from "./isYoutubeUrl";
 export { isValidEmail } from "./isValidEmail";
 export { isValidGoogleMapsUrl } from "./isValidGoogleMapsUrl";
