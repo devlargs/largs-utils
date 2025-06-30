@@ -25,7 +25,13 @@ export const SOCIAL_LINKS: Record<SocialLink, SocialLinkConfig> = {
     endsWith: ".spotify.com",
   },
   twitter: {
-    validDomains: ["twitter.com", "www.twitter.com", "m.twitter.com"],
+    validDomains: [
+      "twitter.com",
+      "www.twitter.com",
+      "m.twitter.com",
+      "x.com",
+      "www.x.com",
+    ],
     endsWith: ".twitter.com",
   },
   youtube: {
