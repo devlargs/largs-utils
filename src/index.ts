@@ -5,6 +5,7 @@ export { extractYouTubeVideoID } from "./extractYoutubeVideoId";
 export { generatePrefixedId } from "./generatePrefixedId";
 export { generateSlug } from "./generateSlug";
 export { getYoutubeThumbnail } from "./getYoutubeThumbnail";
+export { isFacebookUrl } from "./isFacebookUrl";
 export { isValidEmail } from "./isValidEmail";
 export { isValidGoogleMapsUrl } from "./isValidGoogleMapsUrl";
 export { isValidHttpUrl } from "./isValidHttpUrl";

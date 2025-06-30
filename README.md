@@ -108,6 +108,25 @@ console.log(isValidEmail(email1)); // true
 console.log(isValidEmail(email2)); // false
 ```
 
+### `isFacebookUrl`
+
+Validates if a given string is a valid Facebook URL.
+
+**Usage:**
+
+```typescript
+import { isFacebookUrl } from "largs-utils";
+
+isFacebookUrl("https://facebook.com/profile"); // true
+isFacebookUrl("https://www.facebook.com/pages"); // true
+isFacebookUrl("https://m.facebook.com/mobile"); // true
+isFacebookUrl("https://fb.com/short"); // true
+isFacebookUrl("https://business.facebook.com/business"); // true
+isFacebookUrl("https://google.com"); // false
+isFacebookUrl("ftp://facebook.com"); // false
+isFacebookUrl("not-a-url"); // false
+```
+
 ### `isValidHttpUrl`
 
 Validates if a given string is a valid URL
