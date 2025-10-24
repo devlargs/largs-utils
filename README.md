@@ -67,6 +67,43 @@ extractYouTubeVideoID("https://www.youtube.com/watch?v=JWJz_MS1-I8&t=1815s"); //
 extractYouTubeVideoID("https://youtu.be/JWJz_MS1-I8"); // JWJz_MS1-I8
 ```
 
+### `formatNumber`
+
+Formats numbers into human-readable strings with appropriate unit suffixes (k, m, b).
+
+**Usage:**
+
+```typescript
+import { formatNumber } from "largs-utils";
+
+// Thousands
+formatNumber(1000); // "1k"
+formatNumber(1500); // "1.5k"
+formatNumber(45678); // "45.7k"
+
+// Millions
+formatNumber(1000000); // "1m"
+formatNumber(2500000); // "2.5m"
+formatNumber(1234567); // "1.2m"
+
+// Billions
+formatNumber(1000000000); // "1b"
+formatNumber(5500000000); // "5.5b"
+
+// Regular numbers (less than 1000)
+formatNumber(999); // "999"
+formatNumber(123); // "123"
+
+// Custom decimal precision
+formatNumber(1234, 0); // "1k"
+formatNumber(1234, 1); // "1.2k"
+formatNumber(1234, 2); // "1.23k"
+
+// Negative numbers
+formatNumber(-1500); // "-1.5k"
+formatNumber(-2500000); // "-2.5m"
+```
+
 ### `generatePrefixedId`
 
 Generates UUID with a prefix

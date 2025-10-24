@@ -14,6 +14,7 @@ export { isYoutubeUrl } from "./isYoutubeUrl";
 export { isValidEmail } from "./isValidEmail";
 export { isValidGoogleMapsUrl } from "./isValidGoogleMapsUrl";
 export { isValidHttpUrl } from "./isValidHttpUrl";
+export { formatNumber } from "./formatNumber";
 export { shuffleArray } from "./shuffleArray";
 export { toKebabCase } from "./toKebabCase";
 export { unslugify } from "./unslugify";
