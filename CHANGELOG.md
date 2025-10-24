@@ -1,3 +1,12 @@
+# [0.16.0](https://github.com/devlargs/largs-utils/compare/v0.15.1...v0.16.0) (2025-10-24)
+
+
+### Features
+
+* added formatNumber util ([6d8767a](https://github.com/devlargs/largs-utils/commit/6d8767a2467db032249507c4b5c3c11ddc7ba062))
+
+
+
 ## [0.15.1](https://github.com/devlargs/largs-utils/compare/v0.15.0...v0.15.1) (2025-06-30)
 
 
@@ -32,15 +41,6 @@
 ### Features
 
 * added isFacebookUrl validator ([619422e](https://github.com/devlargs/largs-utils/commit/619422e7515ad0772387f935108fe53383ded9c8))
-
-
-
-# [0.12.0](https://github.com/devlargs/largs-utils/compare/v0.11.0...v0.12.0) (2025-06-03)
-
-
-### Features
-
-* returns a youtube thumbnail from a given youtube video ([3ae0b14](https://github.com/devlargs/largs-utils/commit/3ae0b14c56ac978f3c9c1b36ff5c272e6bfd7b3c))
 
 
 
